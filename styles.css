@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:300,400");
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0E0E0
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+h3{
+  font-size: 15px;
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-light {
+  font-weight: lighter;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 85px;
+}
+
+
+
+.avatar {
+  width: 50px;
+/*  height: 50px;
+  object-fit: cover;
+  object-position: 70% 20%;*/
+  border-radius: 50%;
+}
+
+.avatar-lg {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.banner {
+  color: white;
+  height: 50vh;
+  padding: 75px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1,h3 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.banner p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+.btn-medium {
+  display: inline-block;
+  padding: 12px 22px;
+  background-color: white;
+  border: rgba(144,144,144, 0.7) solid 1px;
+  border-radius: 30px;
+  color: rgba(144,144,144, 0.7);
+  text-decoration: none;
+  opacity: 0.7;
+}
+.btn-medium:hover {
+  opacity: 0.9;
+}
+
+.btn-obey {
+  display: inline-block;
+  padding: 12px 22px;
+  background-color: #3BC162;
+  opacity: 0.7;
+  border-radius: 3px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.btn-obey:hover {
+  opacity: 1;
+  font-size: 14px;
+
+}
+.btn-matthew {
+  padding: 20px 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: #E5446D;
+  color: #FCF9F7;
+  border: white solid 2px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+
+.card-category {
+  width: 225px;
+  height: 175px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px black;
+  border-radius: 3px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  margin: 12px 2px;
+}
+
+.card-product {
+  margin: 9px 0;
+  border-radius: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  padding: 1px 4px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+.card-trip {
+  position: relative;
+  margin-top: 12px;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
+.card-trip h2{
+  margin-bottom: 0;
+}
+
+.card-trip img{
+  width: 100%;
+
+}
+.card-trip-avatar {
+  width: 50px;
+  display: inline-block;
+  position: absolute;
+  bottom: 115px;
+  right: 20px;
+
+}
+
+.card-trip-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 8px;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 85px;
+  color: white;
+  background-image: linear-gradient( 179.6deg,  rgba(0,19,26,1) -4.9%, rgba(0,77,105,1) 108.4% );
+}
+
+.footer-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+i:hover {
+  font-size: 42px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+i {
+  color: white;
+  font-size: 36px;
+  transition: all .5s ease;
+
+}
